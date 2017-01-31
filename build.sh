@@ -32,7 +32,7 @@ echo "[Script by Linus Yang]"
 echo ""
 
 # sdk variable
-export IOS_VERSION="9.3"
+export IOS_VERSION="10.2"
 export DEVROOT=$("xcode-select" -print-path)"/Platforms/iPhoneOS.platform/Developer"
 export SDKROOT="$DEVROOT/SDKs/iPhoneOS${IOS_VERSION}.sdk"
 
